@@ -1,3 +1,15 @@
+const firebaseConfig = {
+    	,
+    	authDomain: "madlibs-bb9af.firebaseapp.com",
+    	projectId: "madlibs-bb9af",
+    	storageBucket: "madlibs-bb9af.appspot.com",
+    	messagingSenderId: "622424206247",
+    	appId: "1:622424206247:web:2939814263e699eeb86482",
+};
+const app = firebase.initializeApp(firebaseConfig);
+const db = firebase.firestore();
+console.log("firebase setup complete!");
+
 function MadLibTime() {
   var adj1 = document.getElementById("adj1").value;
   var adj2 = document.getElementById("adj2").value;

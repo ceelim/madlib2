@@ -1,0 +1,23 @@
+var story = document.getElementById("story").innerHTML; console.log("story:" +story);
+var storyData = {
+  timestamp: Date.now(),
+  story: story,
+  adj1: adj1,
+  adj2: adj2,
+  adj3: adj3,
+  adj4: adj4,
+  adj5: adj5,
+  adj6: adj6,
+  noun1: noun1, 
+  noun2: noun2,
+  noun3: noun3,
+  noun4: noun4,
+  noun5: noun5,
+  verb1: verb1,
+  verb2: verb2,
+  verb3: verb3,
+  verb4: verb4,
+};
+var storyJSON.stringify(storyData);
+console.log("storyJSON:" + storyJSON);
+return storyData;
