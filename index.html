@@ -1,16 +1,22 @@
-<!DOCTYPE html>
-<html>
-<head></head><h1> TIPS FOR NEW PARENTS <br> MAD LIBS EDITION 2.0 </h1> </head>
-  
 
-  <head> 
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head></head>
+  <title> TIPS FOR NEW PARENTS <br> MAD LIBS EDITION 2.0 </title> 
   <script src="script.js"></script>
   <link href="style.css" rel="stylesheet" type="text/css"/>
   <script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-firestore-compat.js"></script>
   </head>
 
-<body> <form>
+<body> 
+  <h1><Tips for New Parents</h1>
+  <br>
+      <div id="box">
+       <img src="swaddledbaby.png" alt="a clipart picture of a baby swaddled in a blanket" width="200" height="300""></div>
+  <p>  
+  <form>
      Adjective: <input type="text" id="adj1"> <br>
      Adjective: <input type="text" id="adj2"> <br>
      Noun: <input type="text" id="noun1"> <br>  
@@ -29,16 +35,16 @@
    </form>
   <br>
   <br>
-  <button type = "button" onclick = "MadLibTime!()">MadLib Time!</button>
-  <p id="output"></p>  
-
-<script type="module">
-
-	</script>
-	<script src="script.js"></script>
-
-</body>
-
-</html>
+    <button onclick="createMadLib()">Create MadLib</button>
+    <button onclick="saveMadLib()">Save MadLib</button>
+    <button onclick="findMadLib()">Find MadLib</button>
+    <button onclick="editMadLib()">Edit MadLib</button>
+    <button onclick="deleteMadLib()">Delete MadLib</button>
+    </form>
+  </p>
+    <p id="output"></p>
+    <script src="script.js"></script>
+  </body>
+  </html>
 
 
