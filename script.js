@@ -29,7 +29,8 @@ function createMadLib() {
   var adj5 = document.getElementById("adj5").value;
   var adj6 = document.getElementById("adj6").value;
 
-  var story = document.getElementById('output').innerHTML = "Ready for the whirlwind of newborn care as  a new parent? Hope these 10 tips can help... 1. Change diapers frequently to keep baby " + adj1 + " and dry." + "  2. Use " + adj2 + " products for their sensitive " + noun1 + ".  3."+ verb1 + " a " + adj3 + " and safe sleeping " + noun2 + " for baby.  4. Find a " + adj4 + " spot in your " + noun3 + " to bond while feeding your child.  5. Try to " + verb2 + " when the baby sleeps.  6. Accept help with household " + noun4 + " and errands.  7. Just " + verb3 + " your instincts.  8. Make " + noun5 + " for self-care.  9. Stay hydrated and make time to " + verb4 + " daily.  10. Cherish all the " + adj5 + " moments with your " + adj6 + " one! Welcome to Parenthood!"); 
+  var story = document. getElementById ('story').innerHTML; console.log('story' + story);
+  .getElementById('output').innerHTML = "Ready for the whirlwind of newborn care as  a new parent? Hope these 10 tips can help... 1. Change diapers frequently to keep baby " + adj1 + " and dry." + "  2. Use " + adj2 + " products for their sensitive " + noun1 + ".  3."+ verb1 + " a " + adj3 + " and safe sleeping " + noun2 + " for baby.  4. Find a " + adj4 + " spot in your " + noun3 + " to bond while feeding your child.  5. Try to " + verb2 + " when the baby sleeps.  6. Accept help with household " + noun4 + " and errands.  7. Just " + verb3 + " your instincts.  8. Make " + noun5 + " for self-care.  9. Stay hydrated and make time to " + verb4 + " daily.  10. Cherish all the " + adj5 + " moments with your " + adj6 + " one! Welcome to Parenthood!"); 
 }
  // create JS object
   var storyData = {
